@@ -1,0 +1,94 @@
+@import url(https://fonts.google.com/specimen/Lexend+Deca);
+@import url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+.cardbox{
+  border: 1px solid ;
+  box-sizing: border-box;
+  width: 700px;
+  height: 400px;
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.row{
+display: flex;
+flex-direction: row;
+}
+.one{
+    flex-basis: 100%;
+    flex: 33.3%;
+    background-color:hsl(31, 77%, 52%);
+    width: 233.3px;
+    height: 400px;
+    padding: 30px 20px 0 25px;
+}
+.two{
+    flex-basis: 100%;
+    flex: 33.3%;
+    background-color: hsl(184, 100%, 22%);
+    width: 233.3px;
+    height: 400px;
+    padding: 30px 20px 0 25px;
+}
+.three{
+    flex-basis: 100%;
+    flex: 33.3%;
+    background-color:hsl(179, 100%, 13%);
+    width: 233.3px;
+    height: 400px;
+    padding: 30px 20px 0 25px;
+}
+h3{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+}
+P{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color:hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    padding-bottom: 70px;
+}
+input{
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 18px;
+    width: 100px;
+    padding: 10px 10px 10px 10px;
+    
+}
+.sedan{
+    color: hsl(31, 77%, 52%);
+   font-weight: 400 ;
+}
+.suv{
+    color: hsl(184, 100%, 22%) ;
+    font-weight: 400 ;
+}
+.luxury{
+    color: hsl(179, 100%, 13%);
+    font-weight: 400 ;
+}
+@media only screen and (max-width: 768px) {
+    .container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: reverse;
+          -ms-flex-direction: column-reverse;
+              flex-direction: column-reverse;
+      -webkit-box-pack: space-evenly;
+          -ms-flex-pack: space-evenly;
+              justify-content: space-evenly;
+      -ms-flex-line-pack: center;
+          align-content: center;
+      width: 350px;
+      height: 400px;
+      margin: 5rem auto;
+    }
+}
